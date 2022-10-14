@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html> 
+    <head>
+        <title>Midterm 6201072510208</title>
+    <!-- ************t -->
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />   
+    <link rel="stylesheet"  href="CSS.css" />    
+     
+     <style>
+
+</style>
+  </head>
+  <body style="background-color:black">
+    
+  <video autoplay loop muted play-inline class="back-video">
+        <source src="After dark_Trim.mp4" type="video/mp4">
+    </video>
+    
+         
+            <form id="form">               
+            <a href="https://midterm-exam-010723313-2022.herokuapp.com/device"></a>
+                    <div id = "container1">            
+                        <h1 style="color:white;"> Query data</h1><h2> </h2>
+                        <h6 style="color:white;">
+                         Sensor-name:<br><input type = "text" placeholder="sensor_name" id="sensor_type"><br>
+                         Sensor-id:<br><input type = "text" placeholder="sensor_id" id="sensor_id"><br>
+                        <button type="submit" class=" btn btn-outline-success">Submit</button><br>
+                        <button onclick="document.location='index.html'"class="btn btn-outline-danger">Clear</button>
+                        <div id="myData"></div> 
+                                <script src="sc.js"></script> </h6>                       
+                    </div>                                                         
+            </form> 
+            
+            
+                               
+        <form action="https://midterm-exam-010723313-2022.herokuapp.com/student_post" method="post">  
+                    <div id="container2">
+                        <h1 style="color:white;">Post Data</h1> 
+                        <h6 style="color:white;">                      
+                         Student-ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  placeholder="st_id"  name="st_id" >&nbsp;&nbsp;                                     
+                         Student-Name:&nbsp;&nbsp;&nbsp;&nbsp;<input type = "text" placeholder="st_name" name="st_name"> <br><br> 
+                         Sensor-Name:&nbsp;&nbsp;<input type = "text" placeholder="Sensor-name" name="sensor_name">  &nbsp;&nbsp;
+                         Sensor-Type:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "text" placeholder="Sensor-type" name="sensor_type"><br><br>  
+                         Sensor-Unit:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "text" placeholder="Sensor-unit" name="sensor_unit">&nbsp;&nbsp;&nbsp;
+                         Sensor-Value:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "text" placeholder="Sensor-value" name="sensor_value"> <br><br>                  
+                        <button type = "submit" value = "Create" class="btn btn-outline-success">Create </button></h6>
+                        <p><a class="two" href="https://iee.eng.kmutnb.ac.th" target="_blank">iee.eng.kmutnb.ac.th</a></p>
+                    </div> 
+        </form>                                         
+    </body>
+</html>
