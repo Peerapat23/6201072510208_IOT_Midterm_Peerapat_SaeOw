@@ -14,9 +14,9 @@ form.addEventListener("submit",function(e){
         function appendData(data){
          var mainContainer = document.getElementById("myData");{
         var div = document.createElement("div");
-        div.innerHTML = ` ${data[0].name} ${data[0].type} ${data[0].unit} ${data[0].range}  ${data[0].value}
-                          ${data[1].name} ${data[1].type} ${data[1].unit} ${data[1].range}  ${data[1].value}
-                          ${data[2].name} ${data[2].type} ${data[2].unit} ${data[2].range}  ${data[2].value}`;
+        div.innerHTML = ` NAME:${data[0].name} TYPE:${data[0].type} UNIT:${data[0].unit} RANGE:${data[0].range} PLANT-SITE:${data[0]["plant-site"]} VALUE:${data[0].value}
+                          NAME:${data[1].name} TYPE:${data[1].type} UNIT:${data[1].unit} RANGE:${data[1].range} PLANT-SITE:${data[1]["plant-site"]} VALUE:${data[1].value}
+                          NAME:${data[2].name} TYPE:${data[2].type} UNIT:${data[2].unit} RANGE:${data[2].range} PLANT-SITE:${data[2]["plant-site"]} VALUE:${data[2].value}`;
         mainContainer.appendChild(div);
     }
                                 }
@@ -31,7 +31,7 @@ form.addEventListener("submit",function(e){
         function appendData(data){
          var mainContainer = document.getElementById("myData");{
         var div = document.createElement("div");
-        div.innerHTML = `   ${data.name} ${data.type} ${data.unit} ${data.range} ${data.value}`;
+        div.innerHTML = `   NAME:${data.name} TYPE:${data.type} UNIT:${data.unit} RANGE:${data.range} PLANT-SITE:${data["plant-site"]} VALUE:${data.value}`;
         mainContainer.appendChild(div);
     }
                                 }
@@ -46,7 +46,7 @@ form.addEventListener("submit",function(e){
         function appendData(data){
          var mainContainer = document.getElementById("myData");{
         var div = document.createElement("div");
-        div.innerHTML = ` ${data.name}  ${data.type} ${data.unit} ${data.range}  ${data.value}`;
+        div.innerHTML = ` NAME:${data.name} TYPE:${data.type} UNIT:${data.unit} RANGE:${data.range} PLANT-SITE:${data["plant-site"]} VALUE:${data.value}`;
         mainContainer.appendChild(div);
     }
                                 }
@@ -61,7 +61,7 @@ form.addEventListener("submit",function(e){
         function appendData(data){
          var mainContainer = document.getElementById("myData");{
         var div = document.createElement("div");
-        div.innerHTML = ` ${data.name}  ${data.type} ${data.unit} ${data.range}  ${data.value}`;
+        div.innerHTML = ` NAME:${data.name} TYPE:${data.type} UNIT:${data.unit} RANGE:${data.range} PLANT-SITE:${data["plant-site"]} VALUE:${data.value}`;
         mainContainer.appendChild(div);
     }
                                 }
@@ -77,9 +77,9 @@ form.addEventListener("submit",function(e){
         function appendData(data){
          var mainContainer = document.getElementById("myData");{
         var div = document.createElement("div");
-        div.innerHTML = ` ${data[0].name} ${data[0].type} ${data[0].unit} ${data[0].range}  ${data[0].value}
-                          ${data[1].name} ${data[1].type} ${data[1].unit} ${data[1].range}  ${data[1].value}
-                          ${data[2].name} ${data[2].type} ${data[2].unit} ${data[2].range}  ${data[2].value}`;
+        div.innerHTML = ` NAME:${data[0].name} TYPE:${data[0].type} UNIT:${data[0].unit} RANGE:${data[0].range} PLANT-SITE:${data[0]["plant-site"]} VALUE:${data[0].value}
+                          NAME:${data[1].name} TYPE:${data[1].type} UNIT:${data[1].unit} RANGE:${data[1].range} PLANT-SITE:${data[1]["plant-site"]} VALUE:${data[1].value}
+                          NAME:${data[2].name} TYPE:${data[2].type} UNIT:${data[2].unit} RANGE:${data[2].range} PLANT-SITE:${data[2]["plant-site"]} VALUE:${data[2].value}`;
         mainContainer.appendChild(div);
     }
                                 }
@@ -94,7 +94,7 @@ form.addEventListener("submit",function(e){
         function appendData(data){
          var mainContainer = document.getElementById("myData");{
         var div = document.createElement("div");
-        div.innerHTML = ` ${data.name}  ${data.type} ${data.unit} ${data.range}  ${data.value}`;
+        div.innerHTML = ` NAME:${data.name} TYPE:${data.type} UNIT:${data.unit} RANGE:${data.range} PLANT-SITE:${data["plant-site"]} VALUE:${data.value}`;
         mainContainer.appendChild(div);
     }
                                 }
@@ -109,7 +109,7 @@ form.addEventListener("submit",function(e){
         function appendData(data){
          var mainContainer = document.getElementById("myData");{
         var div = document.createElement("div");
-        div.innerHTML = ` ${data.name}  ${data.type} ${data.unit} ${data.range}  ${data.value}`;
+        div.innerHTML = ` NAME:${data.name} TYPE:${data.type} UNIT:${data.unit} RANGE:${data.range} PLANT-SITE:${data["plant-site"]} VALUE:${data.value}`;
         mainContainer.appendChild(div);
     }
                                 }
@@ -124,7 +124,7 @@ form.addEventListener("submit",function(e){
         function appendData(data){
          var mainContainer = document.getElementById("myData");{
         var div = document.createElement("div");
-        div.innerHTML = ` ${data.name}  ${data.type} ${data.unit} ${data.range}  ${data.value}`;
+        div.innerHTML = ` NAME:${data.name} TYPE:${data.type} UNIT:${data.unit} RANGE:${data.range} PLANT-SITE:${data["plant-site"]} VALUE:${data.value}`;
         mainContainer.appendChild(div);
     }
                                 }
@@ -140,9 +140,9 @@ form.addEventListener("submit",function(e){
         function appendData(data){
          var mainContainer = document.getElementById("myData");{
         var div = document.createElement("div");
-        div.innerHTML = ` ${data[0].name} ${data[0].type} ${data[0].unit} ${data[0].range}  ${data[0].value}
-                          ${data[1].name} ${data[1].type} ${data[1].unit} ${data[1].range}  ${data[1].value}
-                          ${data[2].name} ${data[2].type} ${data[2].unit} ${data[2].range}  ${data[2].value}`;
+        div.innerHTML = ` NAME:${data[0].name} TYPE:${data[0].type} UNIT:${data[0].unit} RANGE:${data[0].range} PLANT-SITE:${data[0]["plant-site"]} VALUE:${data[0].value}
+                          NAME:${data[1].name} TYPE:${data[1].type} UNIT:${data[1].unit} RANGE:${data[1].range} PLANT-SITE:${data[1]["plant-site"]} VALUE:${data[1].value}
+                          NAME:${data[2].name} TYPE:${data[2].type} UNIT:${data[2].unit} RANGE:${data[2].range} PLANT-SITE:${data[2]["plant-site"]} VALUE:${data[2].value}`;
         mainContainer.appendChild(div);
     }
                                 }
@@ -157,7 +157,7 @@ form.addEventListener("submit",function(e){
         function appendData(data){
          var mainContainer = document.getElementById("myData");{
         var div = document.createElement("div");
-        div.innerHTML = ` ${data.name}  ${data.type} ${data.unit} ${data.range}  ${data.value}`;
+        div.innerHTML = ` NAME:${data.name} TYPE:${data.type} UNIT:${data.unit} RANGE:${data.range} PLANT-SITE:${data["plant-site"]} VALUE:${data.value}`;
         mainContainer.appendChild(div);
     }
                                 }
@@ -172,7 +172,7 @@ form.addEventListener("submit",function(e){
         function appendData(data){
          var mainContainer = document.getElementById("myData");{
         var div = document.createElement("div");
-        div.innerHTML = ` ${data.name}  ${data.type} ${data.unit} ${data.range}  ${data.value}`;
+        div.innerHTML = ` NAME:${data.name} TYPE:${data.type} UNIT:${data.unit} RANGE:${data.range} PLANT-SITE:${data["plant-site"]} VALUE:${data.value}`;
         mainContainer.appendChild(div);
     }
                                 }
@@ -187,7 +187,7 @@ form.addEventListener("submit",function(e){
         function appendData(data){
          var mainContainer = document.getElementById("myData");{
         var div = document.createElement("div");
-        div.innerHTML = ` ${data.name}  ${data.type} ${data.unit} ${data.range}  ${data.value}`;
+        div.innerHTML = ` NAME:${data.name} TYPE:${data.type} UNIT:${data.unit} RANGE:${data.range} PLANT-SITE:${data["plant-site"]} VALUE:${data.value}`;
         mainContainer.appendChild(div);
     }
                                 }
@@ -203,9 +203,9 @@ form.addEventListener("submit",function(e){
         function appendData(data){
          var mainContainer = document.getElementById("myData");{
         var div = document.createElement("div");
-        div.innerHTML = ` ${data[0].name} ${data[0].type} ${data[0].unit} ${data[0].range}  ${data[0].value}
-                          ${data[1].name} ${data[1].type} ${data[1].unit} ${data[1].range}  ${data[1].value}
-                          ${data[2].name} ${data[2].type} ${data[2].unit} ${data[2].range}  ${data[2].value}`;
+        div.innerHTML = ` NAME:${data[0].name} TYPE:${data[0].type} UNIT:${data[0].unit} RANGE:${data[0].range} PLANT-SITE:${data[0]["plant-site"]} VALUE:${data[0].value}
+                          NAME:${data[1].name} TYPE:${data[1].type} UNIT:${data[1].unit} RANGE:${data[1].range} PLANT-SITE:${data[1]["plant-site"]} VALUE:${data[1].value}
+                          NAME:${data[2].name} TYPE:${data[2].type} UNIT:${data[2].unit} RANGE:${data[2].range} PLANT-SITE:${data[2]["plant-site"]} VALUE:${data[2].value}`;
         mainContainer.appendChild(div);
     }
                                 }
@@ -220,7 +220,7 @@ form.addEventListener("submit",function(e){
         function appendData(data){
          var mainContainer = document.getElementById("myData");{
         var div = document.createElement("div");
-        div.innerHTML = ` ${data.name}  ${data.type} ${data.unit} ${data.range}  ${data.value}`;
+        div.innerHTML = ` NAME:${data.name} TYPE:${data.type} UNIT:${data.unit} RANGE:${data.range} PLANT-SITE:${data["plant-site"]} VALUE:${data.value}`;
         mainContainer.appendChild(div);
     }
                                 }
@@ -235,7 +235,7 @@ form.addEventListener("submit",function(e){
         function appendData(data){
          var mainContainer = document.getElementById("myData");{
         var div = document.createElement("div");
-        div.innerHTML = ` ${data.name}  ${data.type} ${data.unit} ${data.range}  ${data.value}`;
+        div.innerHTML = ` NAME:${data.name} TYPE:${data.type} UNIT:${data.unit} RANGE:${data.range} PLANT-SITE:${data["plant-site"]} VALUE:${data.value}`;
         mainContainer.appendChild(div);
     }
                                 }
@@ -250,7 +250,7 @@ form.addEventListener("submit",function(e){
         function appendData(data){
          var mainContainer = document.getElementById("myData");{
         var div = document.createElement("div");
-        div.innerHTML = ` ${data.name}  ${data.type} ${data.unit} ${data.range}  ${data.value}`;
+        div.innerHTML = ` NAME:${data.name} TYPE:${data.type} UNIT:${data.unit} RANGE:${data.range} PLANT-SITE:${data["plant-site"]} VALUE:${data.value}`;
         mainContainer.appendChild(div);
     }
                                 }
